@@ -1,6 +1,6 @@
 def main():
-  temperature = int(input("Enter temperature: \n"))
-  response = input(f"Enter unit in F/f or C/c: \n")
+  temperature = float(input("Enter temperature: "))
+  response = input("Enter unit in F/f or C/c: ")
   if response == 'F' or response == 'f' :
     fahrenheit = (temperature - 32) * (5/9)
     print (f"{temperature}\N{degree sign} in Fahrenheit is equivalent to {fahrenheit}\N{degree sign} Celsius.")
