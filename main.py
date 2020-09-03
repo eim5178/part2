@@ -1,3 +1,7 @@
+# Evelyn Moore eim5178@psu.edu
+# Collaborators:
+# Caleb Frantz cmf6208@psu.edu
+# Jared Cole jcc6066@psu.edu
 def main():
   temperature = float(input("Enter temperature: "))
   response = input("Enter unit in F/f or C/c: ")
